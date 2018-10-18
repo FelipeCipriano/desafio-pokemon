@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<meta charset="UTF-8"/>
+        <title>POKÉMON</title>
+        <link href="sitepokemon.css" type="text/css" rel="stylesheet" />
+		 
+		 <div id="cabecalho"> 
+		 
+         <img class="fotos" src="pokemon-log.jpg"/>
+         <img class="fotos" src="pokebola-go-1.png"/>
+ 		 
+         </div>
+		 
+		 
+    </head>
+    <body>
+
+	    
+		
+        <div id="conteudo">
+		<script>
+
+       var  pokemon = " ";
+       pokemon = prompt("ESCOLHA SEU POKÉMON [PIKACHU] [VENUSAUR] [CHARMANDER] POR FAVOR ESCREVA EM LETRAS MAIÚSCULA", "")
+	   
+	   
+	   if (pokemon == "PIKACHU")
+	   {document.write("<h1>PIKACHU</h1><img src=Pokemon.png width= 300 height= 200> <img src=tabela.jpg width= 500 height= 400> <embed src=PikachuDubstep.mp3 Autostart=true Loop=true></embed>");
+	   }
+	   else
+	   if (pokemon == "VENUSAUR")
+	   {document.write("<h1>VENUSAUR</h1><img src=Venusaur.png width= 300 height= 200> <img src=tabela2.jpg width= 500 height= 400> <embed src=venu.mp3 Autostart=true Loop=true></embed>");
+	   }
+	   else
+	   if (pokemon == "CHARMANDER")
+	   {document.write("<h1>CHARMANDER</h1><img src=Charmander.png width= 300 height= 200> <img src=tabela3.jpg width= 500 height= 400> <embed src=CharmanderSong.mp3 Autostart=true Loop=true></embed>");
+	   }
+	   else
+	   {alert ("ESSA OPÇÃO É INVALIDA POR FAVOR ESCOLHA OUTRO APERTANDO [F5]");
+	   }
+	   
+</script>
+	    
+		</div>
+		
+		<div id="rodape">
+		<p></br></br></br>TROCAR DE PERSONAGEM APERTA [F5]</P>
+		</div>
+		
+    </body>
+</html>
